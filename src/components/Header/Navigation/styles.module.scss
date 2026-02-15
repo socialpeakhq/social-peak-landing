@@ -31,4 +31,7 @@
   text-wrap-mode: nowrap;
   min-width: auto;
   height: 50%;
+  &:hover {
+    background-color: var(--primary-blue);
+  }
 }
