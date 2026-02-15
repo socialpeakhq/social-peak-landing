@@ -1,0 +1,87 @@
+.heroContainer {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  min-height: 85dvh;
+  padding: 0px 5%;
+  padding-right: 0px;
+  background: linear-gradient(
+    120deg,
+    #ffffff 0%,
+    #f8f6ff 35%,
+    #ede9fe 55%,
+    var(--accent-purple) 100%
+  );
+
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    black 10%,
+    black 95%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    black 10%,
+    black 95%,
+    transparent 100%
+  );
+}
+
+.heroLabels {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 22px;
+}
+
+.mainLabel {
+  color: var(--text-color);
+  font-size: 46px;
+  font-weight: bold;
+  span {
+    font-weight: normal;
+  }
+}
+
+.heroImage {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.img {
+  position: relative;
+  width: 100%;
+  left: 5%;
+  border-radius: 12px;
+  min-height: 60dvh;
+}
+
+.actionsContainer {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  gap: 25px;
+}
+
+.getStartedContainer {
+  width: 25%;
+  height: 42px;
+}
+
+.actionButton {
+  width: 25%;
+  border: solid 1px var(--text-color);
+  color: var(--text-color);
+  border-radius: 10px;
+  height: 42px;
+  transition: all 0.2s;
+  &:hover {
+    border: solid 1px var(--accent-purple);
+    color: var(--accent-purple);
+  }
+}

@@ -8,6 +8,7 @@ export default function Content(): ReactElement {
   return (
     <div className={styles.content}>
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
       </Routes>
     </div>

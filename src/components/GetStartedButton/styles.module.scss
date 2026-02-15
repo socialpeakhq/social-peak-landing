@@ -1,0 +1,12 @@
+.getStartedButton {
+  border-radius: 10px;
+  text-transform: none;
+  background-color: var(--accent-purple);
+  text-wrap-mode: nowrap;
+  min-width: auto;
+  height: 100%;
+  width: 100%;
+  &:hover {
+    background-color: var(--primary-blue);
+  }
+}

@@ -1,8 +1,9 @@
 import { type ReactElement } from "react";
 import { Link } from "react-router";
 import { NAVIGATION_ROUTES } from "../../../utilities/constants/headerConsts";
-import { Box, Button, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import styles from "./styles.module.scss"
+import GetStartedButton from "../../GetStartedButton";
 
 
 export default function Navigation(): ReactElement {
@@ -25,9 +26,9 @@ export default function Navigation(): ReactElement {
           Login
         </Typography>
       </Box>
-      <Button variant="contained" className={styles.getStartedButton}>
-        Get Started Now
-      </Button>
+      <Box className={styles.container}>
+        <GetStartedButton />
+      </Box>
     </Box>
   )
 }
