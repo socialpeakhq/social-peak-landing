@@ -1,0 +1,20 @@
+:root {
+  --background-color: #fff7f7;
+  --primary-blue: #1230ae;
+  --accent-purple: #6c48c5;
+  --soft-accent: #c68fe6;
+  --text-color: #0f172a;
+}
+
+@font-face {
+  font-family: "Geist";
+  src: url("./assets/fonts/Geist.ttf") format("truetype");
+}
+
+* {
+  font-family: Geist, "sans-serif";
+}
+
+body {
+  background-color: var(--background-color);
+}

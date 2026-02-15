@@ -1,0 +1,22 @@
+.headerContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 5%;
+}
+
+.logoContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+.logo {
+  height: 45%;
+}
