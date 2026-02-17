@@ -14,7 +14,7 @@ export default function CardVersion1({ card }: Props): ReactElement {
         <img src={card.image} className={styles.image} />
       </Box>
       <Typography className={styles.titleLabel}>{card.title}</Typography>
-      <Typography className={styles.titleLabel}>{card.description}</Typography>
+      <Typography className={styles.descriptionLabel}>{card.description}</Typography>
     </Box>
   )
 }

@@ -3,28 +3,38 @@
   flex-direction: column;
   align-items: center;
   padding: 46px 0px;
+  gap: 12px;
 }
 
 .darkTitle {
   font-size: 38px;
   color: var(--text-color);
   font-weight: bold;
+  line-height: 35px;
+  margin-bottom: 15px;
 }
 
 .purpleTitle {
   font-size: 38px;
   color: var(--accent-purple);
   font-weight: bold;
+  line-height: 35px;
+  margin-bottom: 15px;
 }
 
 .sectionDescription {
   font-size: 16px;
   color: var(--text-color);
-  max-width: 80%;
+  max-width: 60%;
   text-align: center;
   opacity: 0.8;
 }
 
-.fontWeightBold {
-  font-weight: bold;
+.cardsContainer {
+  display: flex;
+  align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
+  gap: 32px;
+  margin-top: 32px;
 }
