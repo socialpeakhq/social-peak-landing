@@ -1,7 +1,7 @@
 import { type ReactElement } from "react";
 import { Box, Button, Typography } from "@mui/material";
 import GetStartedButton from "../../../../components/GetStartedButton";
-import dashbord from "../../../../assets/images/dashboard_demo.png"
+import dashbord from "../../../../assets/images/sections-images/dashboard_demo.png"
 import styles from "./styles.module.scss"
 
 export default function HeroSection(): ReactElement {

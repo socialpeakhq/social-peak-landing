@@ -1,0 +1,30 @@
+.featuresContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 46px 0px;
+}
+
+.darkTitle {
+  font-size: 38px;
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.purpleTitle {
+  font-size: 38px;
+  color: var(--accent-purple);
+  font-weight: bold;
+}
+
+.sectionDescription {
+  font-size: 16px;
+  color: var(--text-color);
+  max-width: 80%;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.fontWeightBold {
+  font-weight: bold;
+}
