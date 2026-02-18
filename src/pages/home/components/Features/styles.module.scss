@@ -33,8 +33,12 @@
 .cardsContainer {
   display: flex;
   align-items: center;
+  justify-content: center;
   max-width: 90%;
   margin: 0 auto;
   gap: 32px;
   margin-top: 32px;
+  & > div {
+    width: 30%;
+  }
 }
