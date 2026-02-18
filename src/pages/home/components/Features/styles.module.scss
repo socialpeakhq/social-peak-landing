@@ -39,6 +39,11 @@
   gap: 32px;
   margin-top: 32px;
   & > div {
-    width: 30%;
+    width: 33%;
+    height: 280px;
+    & > div {
+      padding: 12px;
+      height: 280px;
+    }
   }
 }
