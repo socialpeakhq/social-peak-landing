@@ -1,0 +1,74 @@
+.footerContainer {
+  width: 100%;
+  min-height: 80px;
+  background: linear-gradient(to bottom, var(--background-color) 30%, #fff 70%);
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  min-height: 80px;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 35px;
+}
+
+.naviagtionContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.singleRoute {
+  text-decoration: none;
+}
+
+.routeLabel {
+  color: var(--text-color);
+  font-weight: 600;
+  transition: all 0.3s;
+  opacity: 0.8;
+  font-size: 14px;
+  &:hover {
+    color: var(--accent-purple);
+    opacity: 1;
+  }
+}
+
+.socialsContainer {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.labelsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.socialsHeader {
+  color: var(--text-color);
+  opacity: 0.8;
+  font-size: 14px;
+}
+
+.socialsLabel {
+  color: var(--text-color);
+  opacity: 0.8;
+  font-size: 14px;
+  span {
+    font-weight: bold;
+  }
+}
+
+.copyrightLabel {
+  font-size: 14px;
+  color: var(--text-color);
+  opacity: 0.8;
+}
