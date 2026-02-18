@@ -16,7 +16,7 @@ export default function CardVersion2({ card }: Props): ReactElement {
         </Box>
         <Typography className={styles.titleLabel}>{card.title}</Typography>
       </Box>
-      <Typography className={styles.titleLabel}>{card.description}</Typography>
+      <Typography className={styles.descriptionLabel}>{card.description}</Typography>
     </Box>
   )
 }
