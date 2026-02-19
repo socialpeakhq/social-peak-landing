@@ -1,8 +1,8 @@
 export const NAVIGATION_ROUTES = [
   {
     id: 1,
-    label: "Product",
-    href: "/product",
+    label: "Features",
+    href: "/features",
   },
   {
     id: 2,
