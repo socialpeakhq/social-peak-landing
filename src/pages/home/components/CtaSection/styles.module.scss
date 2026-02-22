@@ -1,0 +1,25 @@
+.ctaSection {
+  margin-top: 32px;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(
+    120deg,
+    var(--soft-accent) 0%,
+    var(--accent-purple) 70%
+  );
+  gap: 32px;
+}
+
+.sectionTitle {
+  color: var(--background-color);
+  font-size: 32px;
+}
+
+.actionsContainer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
