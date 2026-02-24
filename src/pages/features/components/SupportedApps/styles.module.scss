@@ -1,0 +1,67 @@
+.supportedAppsContainer {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  min-height: 15dvh;
+}
+
+.iconContainer {
+  height: 26px;
+  width: 26px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  color: #fff;
+  box-shadow: 1px 3px 5px #00000054;
+  transition: all 0.3s;
+  svg {
+    width: 26px;
+    height: 26px;
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+  }
+}
+
+.instagram {
+  background: #833ab4;
+  background: linear-gradient(to bottom right, #833ab4, #fd1d1d, #fcb045);
+}
+
+.facebook {
+  background: #1877f2;
+}
+
+.whatsapp {
+  background: linear-gradient(45deg, #1ebea5, #00e676);
+}
+
+.tiktok {
+  background: #000;
+}
+
+.twitter {
+  background: #000;
+}
+
+.adsContainer {
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 12px;
+  position: relative;
+  height: 26px;
+  box-shadow: 1px 3px 5px #00000054;
+  transition: all 0.3s;
+  &:hover {
+    transform: translateY(-3px);
+  }
+}
+
+.adsImage {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
