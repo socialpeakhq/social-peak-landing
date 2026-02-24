@@ -2,6 +2,7 @@ import { type ReactElement } from "react";
 import { Box, Typography } from "@mui/material";
 import CardsGrid from "../components/CardGrid";
 import SupportedApps from "../components/SupportedApps";
+import CtaSection from "../components/CtaSection";
 import styles from "./styles.module.scss"
 
 export default function Features(): ReactElement {
@@ -11,6 +12,7 @@ export default function Features(): ReactElement {
       <Typography className={styles.pageSubTitle}>Explore a suite of advanced tools designed to streamline your social media management, all from a single, intuitive platform.</Typography>
       <CardsGrid />
       <SupportedApps />
+      <CtaSection />
     </Box>
   )
 }

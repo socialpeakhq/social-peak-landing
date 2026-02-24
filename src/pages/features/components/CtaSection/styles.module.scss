@@ -1,0 +1,82 @@
+.ctaContainer {
+  background: linear-gradient(135deg, #9333ea, #7e22ce, #581c87);
+  width: 85%;
+  margin: 0 auto;
+  height: 35dvh;
+  display: flex;
+  align-items: center;
+  border-radius: 24px;
+}
+
+.appsContainer {
+  display: flex;
+  width: calc(40% - 24px);
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 12px;
+  flex-wrap: wrap;
+}
+
+.app {
+  background-color: #fff3;
+  width: 76px;
+  height: 76px;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 28px;
+  transition: all 0.1s;
+  &:hover {
+    rotate: 0deg;
+  }
+}
+
+.tiltedLeft {
+  rotate: -15deg;
+}
+
+.tiltedRight {
+  rotate: 15deg;
+}
+
+.labelsContainer {
+  padding: 12px;
+  width: calc(40% - 24px);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.title {
+  color: #fff;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 18px;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.getStartedContainer {
+  padding: 12px;
+  width: calc(20% - 24px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.getStartedButton {
+  color: var(--accent-purple);
+  background-color: #fff;
+  border-radius: 12px;
+  width: max-content;
+  height: 42px;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
