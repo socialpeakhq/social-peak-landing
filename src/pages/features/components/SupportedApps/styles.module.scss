@@ -6,8 +6,8 @@
 }
 
 .iconContainer {
-  height: 26px;
-  width: 26px;
+  height: 32px;
+  width: 32px;
   padding: 12px;
   display: flex;
   align-items: center;
@@ -17,8 +17,8 @@
   box-shadow: 1px 3px 5px #00000054;
   transition: all 0.3s;
   svg {
-    width: 26px;
-    height: 26px;
+    width: 32px;
+    height: 32px;
   }
 
   &:hover {
@@ -49,10 +49,10 @@
 
 .adsContainer {
   background-color: #fff;
-  padding: 12px;
+  padding: 12px 24px;
   border-radius: 12px;
   position: relative;
-  height: 26px;
+  height: 24px;
   box-shadow: 1px 3px 5px #00000054;
   transition: all 0.3s;
   &:hover {
