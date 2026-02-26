@@ -1,0 +1,86 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  height: 90dvh;
+  gap: 12px;
+  padding: 32px;
+  border: solid 1px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  border-radius: 12px;
+  background-color: #fff;
+  position: relative;
+}
+
+.cardTitle {
+  font-size: 26px;
+  color: var(--text-color);
+  font-weight: 600;
+  height: 5%;
+}
+
+.tagline {
+  font-size: 16px;
+  opacity: 0.7;
+  color: var(--text-color);
+  height: 7%;
+}
+
+.description {
+  font-size: 14px;
+  opacity: 0.7;
+  color: var(--text-color);
+  height: 10%;
+}
+
+.priceLabel {
+  font-size: 26px;
+  color: var(--text-color);
+  font-weight: bold;
+  span {
+    font-size: 18px;
+    opacity: 0.7;
+    font-weight: normal;
+  }
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 12px;
+}
+
+.listItem {
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  span {
+    display: block;
+    min-height: 10px;
+    min-width: 10px;
+    background-color: var(--accent-purple);
+    border-radius: 100%;
+  }
+}
+
+.getStartedButton {
+  position: absolute;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+  border-radius: 12px;
+  height: 42px;
+  text-transform: capitalize;
+  font-size: 14px;
+  color: var(--text-color);
+  background-color: transparent;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  box-shadow: none;
+}
+
+.popularPlan {
+  background-color: var(--accent-purple);
+  color: #fff;
+}
