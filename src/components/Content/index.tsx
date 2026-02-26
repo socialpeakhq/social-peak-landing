@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router";
 
 const Home = lazy(() => import("../../pages/home/Container"))
 const Features = lazy(() => import("../../pages/features/Container"))
+const Pricing = lazy(() => import("../../pages/pricing/Container"))
 
 export default function Content(): ReactElement {
   return (
@@ -12,6 +13,7 @@ export default function Content(): ReactElement {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/features" element={<Features />} />
+        <Route path="/pricing" element={<Pricing />} />
       </Routes>
     </div>
   )
