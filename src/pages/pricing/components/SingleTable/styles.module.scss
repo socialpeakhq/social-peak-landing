@@ -1,0 +1,32 @@
+.subHeaderRow {
+  background-color: rgba(247, 247, 247, 0.616);
+}
+
+.subHeaderCell {
+  font-weight: 600;
+}
+
+.row {
+  &:last-child {
+    .rowCell {
+      border-bottom: none;
+    }
+  }
+}
+
+.rowCell {
+  opacity: 0.9;
+  color: var(--text-color);
+  font-size: 14px;
+}
+
+.trueLabel {
+  color: var(--accent-purple);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.falseLabel {
+  opacity: 0.6;
+  font-weight: 600;
+}
