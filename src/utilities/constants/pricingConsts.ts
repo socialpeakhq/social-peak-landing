@@ -60,3 +60,34 @@ export const PRICING_CARDS: PricingCard[] = [
     popular: false,
   },
 ];
+
+export const TABLE_DATA = {
+  "Account Management": {
+    "Social Accounts": ["3 accounts", "10 accounts", "Unlimited"],
+    "User Seats": ["1 user", "5 users", "Unlimited"],
+    "Multi-user Collaboration": [false, true, true],
+  },
+  "Content & Scheduling": {
+    "Scheduled Posts": ["30/month", "Unlimited", "Unlimited"],
+    "Post Drafts & Queues": [true, true, true],
+    "Content Calendar": [false, true, true],
+    "Bulk Upload": [false, true, true],
+  },
+  "Analytics & Reporting": {
+    "Basic Analytics": [true, true, true],
+    "Advanced Reporting": [false, true, true],
+    "White-label Reports": [false, false, true],
+    "Custom Dashboards": [false, false, true],
+  },
+  "Integrations ": {
+    "Instagram Integration": [true, true, true],
+    "Facebook Integration": [true, true, true],
+    "API Access": [false, false, true],
+    "Custom Integrations": [false, false, true],
+  },
+  "Support ": {
+    "Email Support": [true, true, true],
+    "Priority Support": [false, true, true],
+    "Dedicated Account Manager": [false, false, true],
+  },
+};
