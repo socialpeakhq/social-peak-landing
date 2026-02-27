@@ -9,7 +9,7 @@ interface IProps {
 
 export default function PriceCard({ card }: IProps): ReactElement {
   return (
-    <Box className={styles.cardContainer}>
+    <Box className={`${styles.cardContainer} ${card.popular && styles.popularCard}`}>
       <Typography className={styles.cardTitle}>{card.title}</Typography>
       <Typography className={styles.tagline}>{card.tagline}</Typography>
       <Typography className={styles.description}>*{card.description}</Typography>

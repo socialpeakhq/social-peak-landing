@@ -84,3 +84,18 @@
   background-color: var(--accent-purple);
   color: #fff;
 }
+
+.popularCard {
+  border: solid 1px var(--accent-purple);
+  &::after {
+    content: "Most Popular";
+    position: absolute;
+    top: -16px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--accent-purple);
+    padding: 6px 12px;
+    color: white;
+    border-radius: 12px;
+  }
+}
