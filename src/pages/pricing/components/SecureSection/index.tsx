@@ -7,6 +7,7 @@ export default function SecureSection(): ReactElement {
     <Box className={styles.secureContainer}>
       <Typography className={styles.sectionTitle}>Trusted & Secure</Typography>
       <Typography className={styles.sectionDescription}>Your data security is our priority. We use official Meta APIs and maintain the highest standards of security and compliance.</Typography>
+      <Box className={styles.cardsContainer}></Box>
     </Box>
   )
 }
