@@ -3,6 +3,7 @@ import { Box, Typography } from "@mui/material"
 import CardsContainer from "../components/CardsContainer"
 import TableSection from "../components/TableSection"
 import SecureSection from "../components/SecureSection"
+import CtaSection from "../components/CtaSection"
 import styles from "./styles.module.scss"
 
 export default function Pricing(): ReactElement {
@@ -13,6 +14,7 @@ export default function Pricing(): ReactElement {
       <CardsContainer />
       <TableSection />
       <SecureSection />
+      <CtaSection />
     </Box>
   )
 }
