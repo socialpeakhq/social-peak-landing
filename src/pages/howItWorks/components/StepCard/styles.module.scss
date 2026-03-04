@@ -1,0 +1,59 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 12px;
+
+  width: 100%;
+  max-width: 360px;
+
+  padding: 24px 24px 28px;
+  border-radius: 24px;
+  background-color: #ffffff;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+}
+
+.topContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.iconContainer {
+  width: 56px;
+  height: 56px;
+  border-radius: 18px;
+  background: linear-gradient(
+    135deg,
+    var(--accent-purple),
+    var(--soft-accent)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  box-shadow: 0 10px 25px rgba(108, 72, 197, 0.4);
+}
+
+.number {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1;
+  color: rgba(198, 143, 230, 0.25);
+}
+
+.titleLabel {
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.descriptionLabel {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text-color);
+  opacity: 0.7;
+}
+
+*** End of File
