@@ -2,12 +2,20 @@ import {
   SpaceDashboardOutlined,
   InsertChartOutlined,
   LinkOutlined,
+  Instagram,
+  Facebook,
 } from "@mui/icons-material";
 
 export interface StepCard {
   icon: React.ElementType;
   description: string;
   title: string;
+}
+
+export interface MetaCardItem {
+  icon: React.ElementType;
+  title: string;
+  description: string;
 }
 
 export const STEPS_CARD: StepCard[] = [
@@ -28,5 +36,20 @@ export const STEPS_CARD: StepCard[] = [
     description:
       "Monitor accounts, track growth, manage content, and oversee campaigns from a centralized and organized workspace.",
     title: "Manage Everything from One Dashboard",
+  },
+];
+
+export const META_INTEGRATION_CARDS: MetaCardItem[] = [
+  {
+    icon: Instagram,
+    title: "Instagram Business",
+    description:
+      "Connect and manage your Instagram Business accounts with official API access.",
+  },
+  {
+    icon: Facebook,
+    title: "Facebook Pages",
+    description:
+      "Manage your Facebook Pages with secure Meta Business Partner integration.",
   },
 ];
