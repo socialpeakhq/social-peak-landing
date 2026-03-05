@@ -4,6 +4,9 @@ import {
   LinkOutlined,
   Instagram,
   Facebook,
+  CalendarMonthOutlined,
+  SendOutlined,
+  TimelineOutlined,
 } from "@mui/icons-material";
 
 export interface StepCard {
@@ -13,6 +16,12 @@ export interface StepCard {
 }
 
 export interface MetaCardItem {
+  icon: React.ElementType;
+  title: string;
+  description: string;
+}
+
+export interface UpcomingFeatureCardItem {
   icon: React.ElementType;
   title: string;
   description: string;
@@ -51,5 +60,23 @@ export const META_INTEGRATION_CARDS: MetaCardItem[] = [
     title: "Facebook Pages",
     description:
       "Manage your Facebook Pages with secure Meta Business Partner integration.",
+  },
+];
+
+export const UPCOMING_FEATURE_CARDS: UpcomingFeatureCardItem[] = [
+  {
+    icon: CalendarMonthOutlined,
+    title: "Content Scheduling",
+    description: "Schedule posts across platforms.",
+  },
+  {
+    icon: SendOutlined,
+    title: "Auto-Publishing",
+    description: "Automated content distribution.",
+  },
+  {
+    icon: TimelineOutlined,
+    title: "Ads Management",
+    description: "Manage campaigns from one place.",
   },
 ];
