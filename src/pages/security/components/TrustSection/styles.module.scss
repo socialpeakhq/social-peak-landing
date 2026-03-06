@@ -1,0 +1,40 @@
+.sectionContainer {
+  margin-top: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.title {
+  color: var(--text-color);
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.subtitle {
+  color: var(--text-color);
+  opacity: 0.7;
+  font-size: 16px;
+  max-width: 720px;
+  text-align: center;
+}
+
+.cardsRow {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 700px) {
+  .cardsRow {
+    flex-direction: column;
+  }
+}
+

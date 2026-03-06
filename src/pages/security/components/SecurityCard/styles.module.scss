@@ -1,0 +1,64 @@
+.cardContainer {
+  width: 100%;
+  min-height: 250px;
+  border-radius: 24px;
+  background-color: #fff;
+  box-shadow: 0px 1px 5px 1px #00000015;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+  transition: all 0.3s;
+  padding: 24px;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+.iconsRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.iconContainer {
+  background-color: var(--accent-purple);
+  height: 64px;
+  width: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  color: #fff;
+}
+
+.instagramGradient {
+  background: linear-gradient(
+    135deg,
+    #833ab4 0%,
+    #fd1d1d 50%,
+    #fcb045 100%
+  );
+}
+
+.facebookBlue {
+  background-color: #1877f2;
+}
+
+.cardTitle {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.cardDescription {
+  text-align: center;
+  font-size: 15px;
+  color: var(--text-color);
+  opacity: 0.7;
+}
+
