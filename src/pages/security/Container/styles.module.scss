@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.title {
+  font-size: 58px;
+  color: var(--text-color);
+  font-weight: bold;
+  margin-top: 32px;
+}
+
+.pageDescription {
+  font-size: 18px;
+  color: var(--text-color);
+  opacity: 0.7;
+  width: 70dvw;
+  text-align: center;
+}

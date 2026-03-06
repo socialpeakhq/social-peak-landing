@@ -6,6 +6,7 @@ const Home = lazy(() => import("../../pages/home/Container"))
 const Features = lazy(() => import("../../pages/features/Container"))
 const Pricing = lazy(() => import("../../pages/pricing/Container"))
 const HowItWorks = lazy(() => import("../../pages/howItWorks/Container"))
+const Security = lazy(() => import("../../pages/security/Container"))
 
 export default function Content(): ReactElement {
   return (
@@ -16,6 +17,7 @@ export default function Content(): ReactElement {
         <Route path="/features" element={<Features />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="how-it-works" element={<HowItWorks />} />
+        <Route path="/security" element={<Security />} />
       </Routes>
     </div>
   )
