@@ -13,14 +13,12 @@ export default function TrustCard({ card }: Props): ReactElement {
 
   return (
     <Box
-      className={`${styles.cardContainer} ${
-        isMeta ? styles.metaCard : styles.oauthCard
-      }`}
+      className={`${styles.cardContainer} ${isMeta ? styles.metaCard : styles.oauthCard
+        }`}
     >
       <Box
-        className={`${styles.iconWrapper} ${
-          isMeta ? styles.metaIconWrapper : ""
-        } ${card.variant === "oauth" ? styles.oauthIcon : styles.metaIcon}`}
+        className={`${styles.iconWrapper} ${isMeta ? styles.metaIconWrapper : ""
+          } ${card.variant === "oauth" ? styles.oauthIcon : styles.metaIcon}`}
       >
         <Icon sx={{ fontSize: isMeta ? 28 : 22 }} />
       </Box>

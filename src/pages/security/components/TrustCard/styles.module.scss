@@ -39,11 +39,7 @@
 
 .oauthIcon {
   border-radius: 999px;
-  background: linear-gradient(
-    135deg,
-    var(--accent-purple),
-    var(--soft-accent)
-  );
+  background: linear-gradient(135deg, var(--accent-purple), var(--soft-accent));
   color: #ffffff;
 }
 
@@ -52,4 +48,3 @@
   font-weight: 600;
   color: var(--text-color);
 }
-
