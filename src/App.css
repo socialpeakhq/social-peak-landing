@@ -4,6 +4,11 @@
   --accent-purple: #6c48c5;
   --soft-accent: rgb(198, 143, 230);
   --text-color: #0f172a;
+
+  --max-width-tablet: 1280px;
+  --max-width-tablet-portrait: 980px;
+  --max-width-mobile-landscape: 700px;
+  --max-width-mobile: 500px;
 }
 
 @font-face {
